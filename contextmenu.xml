@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<contextmenu>
+  <contextmenuitem>
+    <text>Add a new Row</text>
+    <commandname>Add</commandname>
+    <tooltip>Add a new Row</tooltip>
+    <onclientclick />
+  </contextmenuitem>
+  <contextmenuitem>
+    <text>Delete Row</text>
+    <commandname>Delete</commandname>
+    <tooltip>Delete Row</tooltip>
+    <onclientclick>return __ConfirmMessage('Are you sure you want to delete this row?');</onclientclick>
+  </contextmenuitem>
+  <contextmenuitem>
+    <text>Edit Row</text>
+    <commandname>Edit</commandname>
+    <tooltip>Edit Row</tooltip>
+    <onclientclick />
+  </contextmenuitem>
+</contextmenu>
